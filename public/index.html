@@ -61,43 +61,37 @@
                 </div>
             </div>
         </div>
-        </div>
-        <div id="modal1" class="modal modal-fixed-footer">
+        <div id="modal1" class="modal modal-fixed-footer" action="/api/Flowers" method="post">
             <div class="row modal-content">
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <input placeholder="First" id="first_name" type="text" class="validate" />
-                            <label for="first_name">First Name</label>
+                            <input placeholder="Title" id="title" type="text" class="validate" />
+                            <label for="title">Title</label>
                         </div>
                         <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate" />
-                            <label for="last_name">Last Name</label>
+                            <input id="image" type="text" class="validate" />
+                            <label for="image">Image link</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="password" type="password" class="validate" />
-                            <label for="password">Password</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate" />
-                            <label for="email">Email</label>
+                            <input id="description" type="text" class="validate" />
+                            <label for="description">Description</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12 center-align">
-                            <a class="waves-effect waves-light btn" id="formSubmit">Submit</a>
+                            <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/script.js"></script>
 </body>
